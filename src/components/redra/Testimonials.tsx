@@ -5,38 +5,24 @@ import { Quote, ChevronLeft, ChevronRight, Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Redra Tech rebuilt our platform in 8 weeks and doubled our conversion rate. Their senior team felt like an extension of ours.",
-    name: "Sarah Chen",
-    role: "CEO, Lumen Labs",
-    company: "LUMEN",
+      "Redra Tech transformed our sports education platform with exceptional technical expertise and delivered exactly what we envisioned. Their team's dedication to quality and timely delivery exceeded our expectations.",
+    name: "Raj Kumar V",
+    role: "Founder, Sports Educate",
+    company: "SPORTSEDUCATE",
   },
   {
     quote:
-      "The mobile app they shipped is rock-solid. Crash-free sessions above 99.8% from day one — and the design is gorgeous.",
-    name: "Marcus Okafor",
-    role: "CTO, Northwave",
-    company: "NORTHWAVE",
+      "The leisure yacht website they created is stunning and user-friendly. Their attention to detail and understanding of our luxury brand requirements was impressive. Highly recommend their services!",
+    name: "Kamalesh Srinivasan",
+    role: "Founder, The Leisure Yacht",
+    company: "LEISUREYACHT",
   },
   {
     quote:
-      "From scoping to launch, every milestone was on time. They turned a vague idea into a SaaS product we now sell to enterprise.",
-    name: "Elena Rossi",
-    role: "Founder, Stratus",
-    company: "STRATUS",
-  },
-  {
-    quote:
-      "Best engineering partner we've worked with in a decade. Clean architecture, clear communication, real outcomes.",
-    name: "David Park",
-    role: "VP Engineering, Helix",
-    company: "HELIX",
-  },
-  {
-    quote:
-      "Our new e-commerce store loads in under a second and revenue is up 64% quarter-over-quarter. Couldn't recommend them more.",
-    name: "Priya Anand",
-    role: "Head of Growth, Maven & Co",
-    company: "MAVEN&CO",
+      "Professional, efficient, and results-driven. They delivered our modern language school website on time and within budget. The final product perfectly represents our educational institution.",
+    name: "Pradeep Kumar",
+    role: "Founder, Indian School of Modern Languages",
+    company: "INDIANSCHOOL",
   },
 ];
 
