@@ -57,18 +57,18 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45 }}
-          className="mt-10 flex flex-wrap items-center justify-center gap-4"
+          className="mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4"
         >
           <a
             href="#contact"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-medium animate-pulse-glow"
+            className="group inline-flex items-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-medium animate-pulse-glow text-sm sm:text-base"
           >
             Start Your Project
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
             href="#services"
-            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full glass-card text-foreground font-medium hover:border-primary/50 transition-all"
+            className="inline-flex items-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 rounded-full glass-card text-foreground font-medium hover:border-primary/50 transition-all text-sm sm:text-base"
           >
             Explore Services
           </a>

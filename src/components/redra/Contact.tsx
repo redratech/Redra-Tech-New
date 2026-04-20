@@ -51,7 +51,7 @@ export const Contact = () => {
     <section id="contact" className="relative py-20">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-primary/10 blur-[140px] rounded-full" />
 
-      <div className="container relative grid lg:grid-cols-2 gap-12 items-start">
+      <div className="container relative grid lg:grid-cols-2 gap-12 items-start space-y-12 lg:space-y-0">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -69,7 +69,7 @@ export const Contact = () => {
             next steps and a free scoping call.
           </p>
 
-          <div className="mt-10 space-y-5">
+          <div className="mt-10 space-y-4 sm:space-y-5">
             {[
               { icon: Mail, label: "info.redratech@gmail.com", href: "mailto:info.redratech@gmail.com" },
               { icon: Phone, label: "+91 76391 57729", href: "tel:+917639157729" },
@@ -101,9 +101,9 @@ export const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="glass-card rounded-2xl p-8 space-y-5"
+          className="glass-card rounded-2xl p-6 sm:p-8 space-y-5"
         >
-          <div className="grid sm:grid-cols-2 gap-5">
+          <div className="grid sm:grid-cols-2 gap-3 sm:gap-5">
             <div>
               <label className="text-sm text-muted-foreground">Name</label>
               <input
@@ -126,7 +126,7 @@ export const Contact = () => {
           </div>
           <div>
             <label className="text-sm text-muted-foreground">Phone</label>
-            <div className="mt-2 flex gap-2">
+            <div className="mt-2 flex gap-2 flex-col sm:flex-row">
               <select
                 name="country_code"
                 defaultValue="+91"
