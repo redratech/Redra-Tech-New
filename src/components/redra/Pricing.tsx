@@ -4,7 +4,7 @@ import { Check, Sparkles } from "lucide-react";
 const tiers = [
   {
     name: "Starter",
-    price: "₹2,499",
+    price: "3k to 12k",
     cadence: "/ project",
     description: "Perfect for landing pages and small marketing sites.",
     features: [
@@ -19,7 +19,7 @@ const tiers = [
   },
   {
     name: "Growth",
-    price: "₹7,999",
+    price: "18k to 48k",
     cadence: "/ project",
     description: "Full web or mobile app with backend & integrations.",
     features: [
