@@ -12,7 +12,7 @@ export const Footer = () => {
             className="h-12 w-auto drop-shadow-[0_0_18px_hsl(var(--primary)/0.4)]"
           />
           <p className="mt-4 text-muted-foreground max-w-sm text-sm leading-relaxed">
-            Building digital solutions that work — from idea to launch and
+            Building digital solutions that work - from idea to launch and
             beyond. Trusted by founders and enterprises worldwide.
           </p>
           <div className="mt-5 flex items-center gap-3">
